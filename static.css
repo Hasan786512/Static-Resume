@@ -1,0 +1,24 @@
+/* Default Light Theme */
+body[data-theme="light"] {
+    background-color: #DBD3D3;
+    color: #10375C;
+}
+
+body[data-theme="dark"] {
+    background-color: #10375C;
+    color: #DBD3D3;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #024CAA;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #10375C;
+}
